@@ -2,13 +2,13 @@
 
 This EFI folder contains everything to get a working copy of Mac OS Mojave running on a Lenovo T480.
 
-Please fill in the correct values in the config.plist under EFI/Clover/config.plist as the `BoardSerialNumber`, `SerialNumber` and `SmUUID` have been redacted.
-Please also correct the boot options under GUI/SCAN/LEGACY and GUI/HIDE in the config.plist file.
-Please also correct the disabled port for the internal bluetooth under BOOT/ARGUMENTS/uia_exclude.
+Please fill in the correct values in the config.plist under EFI/Clover/config.plist as the `BoardSerialNumber`, `SerialNumber` and `SmUUID` have been redacted.<br/>
+Please also correct the boot options under GUI/SCAN/LEGACY and GUI/HIDE in the config.plist file.<br/>
+Please also correct the disabled port for the internal bluetooth under BOOT/ARGUMENTS/uia_exclude.<br/>
 
 Laptop specs:
 
-- CPU: Intel I5 8350u
+- CPU: Intel I5 8350U
 - GPU: Intel HD 620
 - RAM: 16GB DDR4 2400MHz
 - 1080P display
